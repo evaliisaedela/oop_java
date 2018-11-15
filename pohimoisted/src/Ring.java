@@ -3,8 +3,14 @@ public class Ring {
     public Double x;
     public Double y;
 
+    public Ring(Double r) {
+        this.raadius = r;
+    }
+
     public Ring() {
         this.raadius = 0.0;
+
+
     }
 
     public void pindala() {
