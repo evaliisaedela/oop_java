@@ -5,7 +5,13 @@ public class Tervitus {
         this.tervitusTekst = t;
     }
 
+    public Tervitus() {
+        this.tervitusTekst ="...";
+    }
+
     public void tervita(){
        System.out.println(tervitusTekst);
    }
+
+
 }
